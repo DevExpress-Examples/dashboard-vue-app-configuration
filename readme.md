@@ -2,7 +2,7 @@
 
 This example shows how you can configure the `DashboardControl` component in a Vue application.
 
-The following properties specify the the currently displayed dashboard and designer availability:
+The following properties specify the currently displayed dashboard and designer availability:
 
 - [dashboardId](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?v=20.2#js_devexpress_dashboard_dashboardcontroloptions_dashboardid)
 - [workingMode](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?v=20.2#js_devexpress_dashboard_dashboardcontroloptions_workingmode)
