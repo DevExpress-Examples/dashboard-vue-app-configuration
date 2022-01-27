@@ -52,7 +52,7 @@ Open ```http://localhost:8080/``` in your browser to see the result.
 - 
 ## Examples
 
-- [Dashboard Component for Angular - Configuration](https://github.com/DevExpress-Examples/dashboard-angular-example)
-- [Dashboard Component for React - Configuration](https://github.com/DevExpress-Examples/dashboard-react-example)
-- [Get Started - Client-Side Dashboard Application (Vue)](https://github.com/DevExpress-Examples/dashboard-vue-app)
+- [Dashboard Component for Angular - Configuration](https://github.com/DevExpress-Examples/dashboard-angular-app-configuration)
+- [Dashboard Component for React - Configuration](https://github.com/DevExpress-Examples/dashboard-react-app-configuration)
+- [Get Started - Client-Side Dashboard Application (Vue)](https://github.com/DevExpress-Examples/dashboard-vue-app-get-started)
 - [ASP.NET Core 3.1 backend for Web Dashboard](https://github.com/DevExpress-Examples/asp-net-core-dashboard-backend)
