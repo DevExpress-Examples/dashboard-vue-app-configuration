@@ -21,7 +21,7 @@ See the following file for implementation details:
 
 The example uses a client-server architecture. The server (backend) project communicates with the client (frontend) application that includes all the necessary styles, scripts and HTML templates. Note that the script version on the client must match the version of libraries on the server.
 
-- The [asp-net-core-server](asp-net-core-server) folder contains the backend project built with ASP.NET Core 3.1.
+- The [asp-net-core-server](asp-net-core-server) folder contains the backend project built with ASP.NET Core 6.0.
 - The [dashboard-vue-app](dashboard-vue-app) folder contains the client application built with Vue.
 
 ## Quick Start
@@ -56,7 +56,7 @@ Open ```http://localhost:8080/``` in your browser to see the result.
 - [Create a Vue Dashboard Application](https://docs.devexpress.com/Dashboard/402495/get-started/build-web-dashboard-applications/create-a-vue-dashboard-application)
 - [Dashboard Component for Vue](https://docs.devexpress.com/Dashboard/401150/web-dashboard/dashboard-component-for-vue)
 - [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages)
-- 
+
 ## Examples
 
 - [Dashboard Component for Angular - Configuration](https://github.com/DevExpress-Examples/dashboard-angular-app-configuration)
