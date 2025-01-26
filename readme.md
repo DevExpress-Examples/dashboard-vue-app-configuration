@@ -11,10 +11,10 @@ This example shows how you can configure the `DashboardControl` component in a V
 
 The following properties specify the currently displayed dashboard and designer availability:
 
-- [dashboardId](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?v=20.2#js_devexpress_dashboard_dashboardcontroloptions_dashboardid)
-- [workingMode](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?v=20.2#js_devexpress_dashboard_dashboardcontroloptions_workingmode)
+- [dashboardId](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_dashboardid)
+- [workingMode](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_workingmode)
 
-In addition, the [onBeforeRender](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions?v=20.2#js_devexpress_dashboard_dashboardcontroloptions_onbeforerender) event handler registers the extension that [enables Text Editor functionality](https://docs.devexpress.com/Dashboard/401572/web-dashboard/create-dashboards-on-the-web/designing-dashboard-items/text-box/enable-text-editor-functionality).
+In addition, the [onBeforeRender](https://docs.devexpress.com/Dashboard/js-DevExpress.Dashboard.DashboardControlOptions#js_devexpress_dashboard_dashboardcontroloptions_onbeforerender) event handler registers the extension that [enables Text Editor functionality](https://docs.devexpress.com/Dashboard/401572/web-dashboard/create-dashboards-on-the-web/designing-dashboard-items/text-box/enable-text-editor-functionality).
 
 See the following file for implementation details:
 
@@ -22,20 +22,20 @@ See the following file for implementation details:
 
 The example uses a client-server architecture. The server (backend) project communicates with the client (frontend) application that includes all the necessary styles, scripts and HTML templates. Note that the script version on the client must match the version of libraries on the server.
 
-- The [asp-net-core-server](asp-net-core-server) folder contains the backend project built with ASP.NET Core 6.0.
+- The [asp-net-core-server](asp-net-core-server) folder contains the backend project built with ASP.NET Core.
 - The [dashboard-vue-app](dashboard-vue-app) folder contains the client application built with Vue.
 
 ## Quick Start
 
 ### Server
 
-In the **asp-net-core-server** folder, run the following command:
+In the *asp-net-core-server* folder, run the following command:
 
 ```
 dotnet run
 ```
 
-The server starts at `http://localhost:5000` and the client gets data from `http://localhost:5000/api/dashboard`. To debug the server, run the **asp-net-core-server** application in Visual Studio and change the client's `endpoint` property according to the listening port: `https://localhost:44382/api/dashboard`.
+The server starts at `http://localhost:5000` and the client gets data from `http://localhost:5000/api/dashboard`. To debug the server, run the *asp-net-core-server* application in Visual Studio and change the client's `endpoint` property according to the listening port: `https://localhost:44382/api/dashboard`.
 
 See the following section for information on how to install NuGet packages from the DevExpress NuGet feed: [Install DevExpress Controls Using NuGet Packages](https://docs.devexpress.com/GeneralInformation/115912/installation/install-devexpress-controls-using-nuget-packages).
 
@@ -43,14 +43,14 @@ See the following section for information on how to install NuGet packages from 
 
 ### Client
 
-In the **dashboard-vue-app** folder, run the following commands:
+In the *dashboard-vue-app* folder, run the following commands:
 
 ```
 npm install
-npm run serve
+npm run dev
 ```
 
-Open ```http://localhost:8080/``` in your browser to see the result.
+Open your browser and navigate to the URL specified in the command output to see the result.
 
 ## Documentation
 
