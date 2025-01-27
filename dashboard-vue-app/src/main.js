@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import 'ace-builds/css/ace.css';  
+import 'ace-builds/css/theme/dreamweaver.css';  
+import 'ace-builds/css/theme/ambiance.css'; 
 import 'devextreme/dist/css/dx.common.css';
 import 'devextreme/dist/css/dx.light.css';
 import "devexpress-richedit/dist/dx.richedit.css";
